@@ -33,9 +33,9 @@ public class LevelManager : MonoBehaviour
 
     List<String> oopStats;
     List<String> dodStats;
-    int levelsPerSize = 50;
+    int levelsPerSize = 5000;
     int currentDimension = 10;
-    int increasePerStep = 10;
+    int increasePerStep = 1;
     int maxDimension = 100;
 
     int scenario = 0;
